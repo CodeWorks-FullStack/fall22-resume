@@ -1,0 +1,57 @@
+:root{
+  --primary: #c4cbd2;
+  --mb: 4rem;
+}
+
+/*  the asterisk character or splat (*) means all or every   */
+* {
+  box-sizing: border-box;
+}
+
+
+body.debug *{
+  /* outline: 1px solid red; */
+}
+
+
+body{
+  margin: 0;
+}
+
+
+
+header{
+  background-color: var(--primary);
+  padding: 1.75rem;
+}
+
+main{
+  display: flex;
+}
+
+.left-column{
+  width: 65vw;
+  padding: 0 3rem;
+}
+
+.right-column{
+  width: 35vw;
+}
+
+section h3.section-title{
+  background-color: var(--primary);
+  padding: .5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+
+.work-history, .objective{
+  margin-bottom: var(--mb);
+}
+
+
+.d-flex{
+  display: flex;
+}
